@@ -10,12 +10,12 @@ Every contribution to the main branch should be peer reviewed through a pull req
 When opening a pull request follow the conventional commit [specification](https://www.conventionalcommits.org/en/v1.0.0/):
 - Start with feat/fix/chore/ci/build/docs/refactor/test/perf
 - Followed by the area/scope where most changes have been made
-- Followed by a reference to the Azure DevOps task, e.g. AB#0000
 - Followed by a brief description of the change
+- Followed by a reference to the Azure DevOps task, e.g. AB#0000 in square brackets
 
 An example:
 
-**feat(tenders): AB#1234 - Add new filter options**
+**feat(tenders): Add new filter options [AB#1234]**
 
 #### Description
 Descriptions are partially auto-generated upon opening a PR but you can and should add the following manually:
